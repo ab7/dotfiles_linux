@@ -1,9 +1,13 @@
 # dotfiles (linux)
 
-First clone repo to User root account:
+Clone repo to User root directory:
 
     cd ~ && git clone https://github.com/ab7/dotfiles_linux.git
 
-Then backup old dotfiles and symlink new ones:
+Backup old dotfiles and symlink new ones:
 
-    sh setup.sh
+    cd dotfiles_linux && sh setup.sh
+
+Source `.bashrc` file for changes to take effect:
+
+    cd ~ && . .bashrc
