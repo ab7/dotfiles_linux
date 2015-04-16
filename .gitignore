@@ -1,0 +1,18 @@
+### System ###
+.DS_Store
+*.swp
+
+### Python ###
+*.pyc
+venv/
+venv3/
+
+### Sass ###
+.sass-cache/
+
+### Node ###
+node_modules/
+
+### vim ###
+.vim/.netrwhist
+.vim/bundle
