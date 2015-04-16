@@ -4,7 +4,7 @@
 alias ..='cd ..'          # Go back one dir
 alias ...='cd ../../'     # Go back two dirs
 alias ls='ls -FGa'        # More info in dir listing
-. ~/dotfiles/z.sh         # Jump to most used folders
+. ~/dotfiles_linux/z.sh   # Jump to most used folders
 
 
 
